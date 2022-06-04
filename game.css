@@ -1,0 +1,84 @@
+body
+{
+width: 100%;
+height: 100%;
+color: #fff;
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #df9ac2, #23D5AB);
+background-size: 800% 800%;
+position: relative;
+animation: change  10s ease-in-out infinite;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+	color: black;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+#b1{
+border-radius: 20px;
+}
+#b1{
+background-color: palevioletred;
+color: white;
+font-size: large;
+}
+section{
+width: 100%;
+height: 100%vh;
+color: #fff;
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #df9ac2, #23D5AB);
+background-size: 400% 400%;
+position: relative;
+animation: change  10s ease-in-out infinite;
+}
+@keyframes change{
+0%{
+background-position: 0 50% ;
+}
+50%{
+	background-position: 100% 50% ;
+	}
+	100%{
+		background-position: 0 50% ;
+		}
+}
+
+#input_check_box{
+color: black;
+}
+#first{
+color: black;
+}
+#second{
+color: black;
+}
+#Title{
+font-size: 60px;
+}
